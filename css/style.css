@@ -1,0 +1,47 @@
+.jumbotron {
+    margin: 0 0 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.bg-home {
+    background-image: url('../img/desk-dark3.jpg');
+}
+.bg-about {
+    background-image: url('../img/yosemite-forest.jpg');
+}
+.bg-portfolio {
+    background-image: url('../img/buildings2.jpg');
+}
+.bg-contact {
+    background-image: url('../img/letters.jpg');
+}
+.navbar {
+  background-color: rgba(210,210,210,0.9);
+  border-bottom: 2px solid #999;
+}
+.link-text {
+  text-decoration: none;
+  color: red;
+}
+.navbar-nav li {
+  background-color: rgba(180,180,180,0.9);
+}
+.navbar-nav li:hover {
+  background-color: #e2e2e2;
+}
+a {
+    color: black !important;
+    font-weight: bold;
+}
+.jumbotron {
+    height: 100vh;
+}
+.row {
+    margin-top: 30vh;
+    height: 30vh;
+    background-color: rgba(250,250,250,0.7);
+}
