@@ -53,13 +53,28 @@ a {
     border-radius: 5px;
 }
 
-button {
-    margin-left: 20px;
-}
+/*  Buttons
+ **************************************/
 
 .ipar-social {
-    background-color: rgba(40,40,40,0.7);
+    border-width: 2px;
+    border-color: white;
+    margin-right: 6px;
+    padding: 12px 22px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    transition: transform 0.3s ease;
 }
+.ipar-social:hover {
+    background-color: rgba(255,255,255,0.4);
+    border-color: black;
+    color: black;
+    text-shadow: none;
+    transform:scale(1.1,1.1);
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1);
+}
+
 
 /*  Font / Typeset
  **************************************/
